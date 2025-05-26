@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peluqueria Lorena</title>
+    <link rel="icon" href="/Imagenes/Logo.jpg" type="image/png">
+    <link rel="stylesheet" href="Contactanos.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="/Imagenes/Logo.jpg" alt="Logo Peluqueria Lorena" class="Logo">
+        </div>
+        <h1>Peluqueria y Estética Lorena</h1>
+        <p>Tu belleza es nuestra pasión</p>
+    </header>
+
+    <nav>   
+        <ul>
+            <li><a href="Contactanos.html">Contáctanos</a></li>
+            <li><a href="Index.html">Volver al inicio</a></li>
+         </ul>
+    </nav>
+    
+    <div class="container">
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.820271352767!2d-4.441249122906032!3d36.70285657317864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7818dbd62d1%3A0xbae0fd2ae7fcbc92!2sPeluqueria%20Y%20Estetica%20Lorena!5e0!3m2!1ses!2ses!4v1745917636945!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+        <section class="Info">
+            <h2>Contáctanos</h2>
+            <p><a>Teléfono 📞</a>: +34 671 18 84 99</p>
+            <p><a>Ubicacion 📍</a>: Calle Carpio Local 3, 29002, Málaga</p>
+            <p><a>Horario de lunes a viernes ⌚</a>: Mañana: 09:30 - 13:30 / Tarde: 17:00 - 20:00</p>
+            <p><a>Horario Fin de Semana ⌚</a>: Sábado: 10:00 - 13:00 / Domingo: Cerrado	</p>
+</div>
+        <section class="formulario">
+            <h2>Formulario de contacto</h2>
+            <form action="enviar_correo.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+<footer>
+    <p>&copy; 2023 Peluqueria y Estética Lorena. Todos los derechos reservados.</p> 
+    <p>Desarrollado por Daniel Palma López.</p>
+</footer>   
+
+</body>
+</html>
